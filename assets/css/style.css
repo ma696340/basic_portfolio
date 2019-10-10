@@ -28,7 +28,7 @@ header {
     padding-bottom: auto;
     margin-top: 25px;
     margin-bottom: auto;
-    font-weight: 400;
+    font-weight: 600;
 }
 li {
     display: inline;
@@ -90,7 +90,7 @@ html, body {
     margin-left: 25%;
     font-family: 'Courier New', Courier, monospace;
     color: #343438;
-    font-weight: 500;
+    font-weight: 600;
     
 }
 
@@ -105,12 +105,12 @@ p {
     text-align: left;
     display: block;
     margin-right: 19%;
-    margin-left: 51%;
-    margin-top: 0;
+    margin-left: 47%;
+    margin-top: -50px;
     bottom: auto;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    font-weight: 545;
+    font-weight: 600;
     color: #343438;
 }
 
@@ -120,7 +120,7 @@ p {
     height: 700px;
     padding: 0px;
     margin-right: -358px;
-    margin-top: -385px;
+    margin-top: -425px;
     opacity: 0.6;
     filter: alpha(opacity=40);
     
@@ -133,7 +133,7 @@ p {
     height: 700px;
     padding: 0px;
     margin-right: -700px;
-    margin-top: -235px;
+    margin-top: -275px;
     opacity: 0.6;
     filter: alpha(opacity=40);
 
@@ -145,7 +145,7 @@ p {
     height: 700px;
     padding: 0px;
     margin-right: -700px;
-    margin-top: -85px;
+    margin-top: -125px;
     opacity: 0.6;
     filter: alpha(opacity=40);
 
