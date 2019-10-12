@@ -2,161 +2,92 @@ body {
     background-image: url("https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
     width: 100%; 
     height: 100%; 
-    position: fixed; 
+    position: relative; 
     left: 0px; 
     top: 0px; 
     z-index: -1;
 }
 
-header {
-    background-color: rgba(245, 245, 220, .4);
-    width: 100%;
-    height: 0%;
-    padding: 1px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto; 
-}
 .name {
     opacity: 1;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Neucha', cursive;
     color: #5e6775;
-    margin-left: 5%;
-    padding-top: auto;
-    padding-bottom: auto;
-    margin-top: 25px;
-    margin-bottom: auto;
-    font-weight: 600;
+    padding: 2px;
+    padding-right: 5%;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 1;
 }
-li {
-    display: inline;
-    float: right;
-    position: relative;
-}
-a { display: block;
-    padding: 30px;
-    text-emphasis-color: black;
-    font-weight: bold;
-}
-
-img {
-    max-width: 25%;
-    max-height: 15%;
-    display: block;
-    margin-left: 20%;
-    margin-right: 50%;
-    margin-top: 2%;
-    width: 50%;
-    opacity: 1;
-    filter: alpha(opacity=50);
-
-}
-
-img:hover{
-      opacity: 0.7;
-      filter: alpha(opacity=50);
-}
-.portf {
-    color: #343438;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    padding: 13px;
-}
-/* .about {
-    color: #5e6775;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    padding: 0; */
- 
-.contact {
-    color: #343438;
-    font-family: 'Courier New', Courier, monospace;
-    border-spacing: 0;
-    font-size: 20px;
-    padding: 13px;
-}
-
-
-html, body {
-    height: 100%;
+.head {
+    background-image: linear-gradient(to bottom, rgba(245, 245, 220, .4), rgba(0,0,0,0));
+    padding: 5px;
+  }
+  ul {
+    list-style-type: none;
     margin: 0;
-}
+    padding: 0;
+    margin-right: 10px;
 
-.abme {
-    text-align: center;
-    margin-right: 25%;
-    margin-left: 25%;
-    font-family: 'Courier New', Courier, monospace;
-    color: #343438;
-    font-weight: 600;
-    
-}
-
-.abme:hover, p:hover, .name:hover, .portf:hover, .contact:hover {
-    color: beige;
   }
-
-
-
-
-p {
-    text-align: left;
+  
+  .navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 7px; /* Position the navbar at the top of the page */
+    width: 100%;
+    font-family: 'Neucha', cursive;
+    color: seashell;
+    font-weight: 400;
+    
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    clear: inline-end;
+    float: right;
     display: block;
-    margin-right: 19%;
-    margin-left: 47%;
-    margin-top: -50px;
-    bottom: auto;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: 600;
-    color: #343438;
-}
-
-.sideimg {
-    float: right;
-    width: 700px;
-    height: 700px;
-    padding: 0px;
-    margin-right: -358px;
-    margin-top: -425px;
-    opacity: 0.6;
-    filter: alpha(opacity=40);
-    
-
-}
-
-.sideimg2 {
-    float: right;
-    width: 700px;
-    height: 700px;
-    padding: 0px;
-    margin-right: -700px;
-    margin-top: -275px;
-    opacity: 0.6;
-    filter: alpha(opacity=40);
-
-}
-
-.sideimg3 {
-    float: right;
-    width: 700px;
-    height: 700px;
-    padding: 0px;
-    margin-right: -700px;
-    margin-top: -125px;
-    opacity: 0.6;
-    filter: alpha(opacity=40);
-
-}
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
-  .footer {
-      padding: 20px;
+
+  .navbar a:hover {
+      color: rgba(245, 245, 220, .4) 
+
   }
-  .push {
-    height: 50px;
+  .abme {
+      text-align: center;
+      margin-right: 21%;
+      font-family: 'Neucha', cursive;
+      color: seashell;
+      font-weight: 400;
   }
+  
+  p {
+    clear: right;
+    margin-right: 50%;
+    margin-left: 40%;
+    width: 28%;
+    font-family: 'Neucha', cursive;
+    line-height: 24px;
+    color: seashell;
+      
+  }
+  .girl {
+    max-width: 20%;
+    max-height: 18%;
+    float: left;
+    margin-left: 18%;
+    margin-right: -43px;
+    width: 40%;
+
+}
+
+.girl:hover, p:hover, .abme:hover, .name:hover {
+    color: rgba(245, 245, 220, .4) 
+
+
+
